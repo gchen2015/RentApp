@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="480px"
+    android:background="#ffffff">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/game_contentimage_view"
+        android:layout_width="1080px"
+        android:layout_height="480px"
+        android:padding="5dp"
+        android:scaleType="centerInside"
+        fresco:placeholderImage="@drawable/bgy" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="48px"
+        android:layout_marginRight="48px"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_marginBottom="48px"
+        android:layout_marginLeft="48px"
+        android:layout_marginRight="48px"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_marginLeft="48px"
+        android:layout_marginRight="48px"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+</com.zhy.autolayout.AutoRelativeLayout>

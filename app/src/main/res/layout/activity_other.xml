@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+          <TextView
+              android:layout_centerHorizontal="true"
+              android:textSize="16sp"
+              android:text="当地汽车出租列表"
+              android:id="@+id/name"
+              android:layout_margin="20dp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" />
+          <com.gz.rentapp.view.MyListView
+              android:layout_below="@+id/name"
+              android:id="@+id/listView"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+          </com.gz.rentapp.view.MyListView>
+          </RelativeLayout>
+</ScrollView>

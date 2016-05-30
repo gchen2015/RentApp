@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/gudieImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ImageView>
+
+    <Button
+        android:id="@+id/textContext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="48px"
+        android:layout_marginTop="148px"
+        android:background="@mipmap/ic_update_dialog_confirm_normal"
+        android:text="告诉你，要向下滑动"
+        android:textSize="40px" />
+
+    <Button
+        android:id="@+id/goMail"
+        android:layout_width="260px"
+        android:layout_height="100px"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60px"
+        android:background="@color/colorAccent"
+        android:text="开始旅程"
+        android:textColor="#ffffff" />
+</RelativeLayout>

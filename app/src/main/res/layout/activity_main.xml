@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_personal"
+    tools:context=".ui.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"></android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/mainGroud"
+        android:layout_below="@id/toolbar"
+        android:orientation="vertical"></LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/mainGroud"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/mainIndex"
+            style="@style/MainStyle"
+            android:drawableTop="@drawable/index_select"
+            android:text="首页" />
+
+        <RadioButton
+            android:id="@+id/mainLine"
+            style="@style/MainStyle"
+            android:drawableTop="@drawable/line_select"
+            android:text="路线" />
+
+        <RadioButton
+            android:id="@+id/mainPerson"
+            style="@style/MainStyle"
+            android:drawableTop="@drawable/person_select"
+            android:text="个人" />
+    </RadioGroup>
+</RelativeLayout>

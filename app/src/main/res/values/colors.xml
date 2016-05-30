@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!--辅助色-->
+    <!--橙色-->
+    <color name="qpj_orange">#f7b840</color>
+    <!--粉色-->
+    <color name="qpj_pink">#ff7a7a</color>
+    <!--红色-->
+    <color name="qpj_red">#45004f</color>
+    <!--绿色-->
+    <color name="qpj_green">#009999</color>
+
+    <color name="qpj_toolBarColor">#66d99f</color>
+    <color name="qpj_toolBarMainColor">#f8f8f8</color>
+    <color name="qpj_textColor">#66d99f</color>
+
+    <color name="qpj_primaryColor">#66d99f</color>
+    <color name="qpj_primaryPerColor">#ea68a2</color>
+
+    <!-- 字体醒目颜色 -->
+    <color name="grass_select_color">#1b1b1b</color>
+    <color name="no_select_color">#a0a0a0</color>
+
+
+    <drawable name="qpj_textColor">#66d99f</drawable>
+    <drawable name="white">#ffffff</drawable>
+    <!-- 灰色 -->
+    <color name="gray">#a0a0a0</color>
+    <!-- 正文灰色 -->
+    <color name="text_gray">#a0a0a0</color>
+
+    <!-- 浅灰 -->
+    <color name="dark_gray">#a0a0a0</color>
+
+
+    <!-- 标题栏背景色 -->
+    <color name="bg_titlebar">#66d99f</color>
+
+    <!-- 常规背景色 -->
+    <color name="bg_general">#eeeeee</color>
+
+    <!-- 列表分割线 -->
+    <color name="list_item_spline">#eeeeee</color>
+
+    <!-- 黑色 -->
+    <color name="black">#404040</color>
+    <!-- 绿色 -->
+    <color name="green_up">#66d99f</color>
+    <!-- 灰色 -->
+    <color name="grew_up">#a0a0a0</color>
+
+    <!-- 首页热点标题字体颜色 -->
+    <color name="first_page_text_color">#222222</color>
+
+    <!-- 首页热点日期，轉發字体颜色 -->
+    <color name="first_page_date_color">#999999</color>
+
+    <!-- 首页分割線字体颜色 -->
+    <color name="first_split_date_color">#d7d7d7</color>
+    <color name="maskda">#dcdcdc</color>
+    <color name="first_split_date_color2">#000000</color>
+    <!-- 标题栏bg -->
+    <color name="menu_color">#02BD88</color>
+    <color name="text_color">#32c67b</color>
+    <color name="textup_color">#66d99f</color>
+    <color name="textno_color">#a0a0a0</color>
+    <color name="login_color">#959595</color>
+
+    <!-- 二维码边框 -->
+
+    <!-- 白色 -->
+    <color name="white">#FFFFFF</color>
+    <!-- 黑色1 -->
+    <color name="black_up">#313131</color>
+    <!-- 背景色 -->
+    <color name="bg_tool">#f8f8f8</color>
+
+    <!-- 侧边导航菜单字体颜色 灰色 -->
+    <color name="home_text_bottom">#BCBCBC</color>
+    <!-- 標題菜單切換字體顏色 -->
+    <color name="home_text_menu">#81DFC4</color>
+    <!-- 导航分割线 -->
+    <color name="gudit_split">#021c39</color>
+    <!-- 轉發按鈕背景色 -->
+    <color name="web_button">#02BD88</color>
+    <!-- 红色 -->
+    <color name="red">#FF0000</color>
+
+    <color name="province_line_border">#C7C7C7</color>
+
+    <!-- 蓝色 -->
+    <color name="blue">#38AEFB</color>
+    <!-- 日期字体颜色 -->
+    <color name="date_text_color">#9E9E9E</color>
+
+    <!-- 设置背景 -->
+    <color name="bg_set_color">#f8f8f8</color>
+
+    <!-- 青色 -->
+    <color name="grass_color">#01BD88</color>
+
+
+    <color name="line_color">#d8d8d8</color>
+
+    <!-- 积分充足 -->
+    <color name="flow_full_color">#df9c33</color>
+    <color name="no_full_color">#7C7C7C</color>
+
+    <!-- 字体灰色 -->
+    <color name="basic_text_color">#535353</color>
+    <!-- 青色 -->
+    <color name="grass">#0E3404</color>
+
+    <!-- 透明页面背景色 -->
+    <drawable name="alpha_bg">#90000000</drawable>
+
+    <!-- 二维码扫描页面底部背景色 -->
+    <color name="code_scanner">#4E4D48</color>
+    <color name="bg_color">#EEEEEE</color>
+    <!-- 透明页面背景色 更淡 -->
+    <drawable name="alpha_bg1">#50000000</drawable>
+
+    <!-- 个人信息提示框背景色 -->
+    <!-- 灰色 -->
+    <color name="grey">#808080</color>
+    <!-- 绿色 -->
+    <color name="green_aa">#B3EE3A</color>
+    <color name="basice_info_bg_color">#F8F8F8</color>
+
+    <color name="aa">#ff000000</color>
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="possible_result_points">#c0ffbd21</color>
+    <!-- Android standard ICS color -->
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c099cc00</color>
+    <!-- Android standard ICS color -->
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_laser">#ffcc0000</color>
+    <!-- Android standard ICS color -->
+    <color name="viewfinder_mask">#60000000</color>
+
+    <!-- 二维码扫描 -->
+    <color name="viewfinder_border">#00A8EF</color>
+    <!-- 登录 -->
+    <color name="page_back">#fff2f2f2</color>
+    <color name="logo_text_color">#ff7f7f7f</color>
+    <color name="login_with_other_plat_text_color">#ff383838</color>
+    <color name="dialog_white_bg">#fbfbfb</color>
+    <!-- 薄荷色 -->
+    <color name="whitesmoke">#f5f5f5</color>
+    <!-- 红色色块按钮正常颜色 -->
+    <color name="red_bt_no">#ff5375</color>
+    <!-- 红色色块按钮点击颜色 -->
+    <color name="red_bt_press">#fe748f</color>
+    <!-- 灰色字体 -->
+    <color name="gray_text">#959595</color>
+</resources>

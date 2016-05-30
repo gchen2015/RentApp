@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <TextView
+           android:layout_centerHorizontal="true"
+           android:layout_margin="20dp"
+           android:id="@+id/name"
+           android:textSize="16sp"
+           android:textColor="@color/black_up"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:text="航班"
+           android:layout_alignParentRight="true"
+           android:layout_margin="20dp"
+           android:id="@+id/hanbapi"
+           android:textSize="16sp"
+           android:textColor="@color/black_up"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+       <RelativeLayout
+           android:layout_below="@+id/name"
+           android:id="@+id/layout"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <com.gz.rentapp.view.AutoScrollViewPager
+               android:id="@+id/home_banner_viewpager"
+               android:layout_width="match_parent"
+               android:layout_height="350px" />
+
+           <LinearLayout
+               android:id="@+id/home_dot_ll"
+               android:layout_above="@+id/home_banner_viewpager"
+               android:orientation="horizontal"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="center"
+               android:layout_alignParentBottom="true"
+               android:layout_centerHorizontal="true"></LinearLayout>
+       </RelativeLayout>
+
+       <TextView
+           android:textSize="14sp"
+           android:layout_below="@+id/layout"
+           android:text="更新时间"
+           android:id="@+id/update"
+           android:layout_margin="20dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:textSize="14sp"
+           android:layout_below="@+id/update"
+           android:text="标题内容"
+           android:id="@+id/context"
+           android:layout_marginRight="20dp"
+           android:layout_marginLeft="20dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:layout_below="@+id/context"
+           android:layout_marginTop="20dp"
+           android:layout_marginLeft="20dp"
+           android:textSize="14sp"
+           android:id="@+id/mujian"
+           android:text="目的地简介:"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:layout_below="@+id/mujian"
+           android:layout_margin="20dp"
+           android:id="@+id/muListView"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+           </TextView>
+       <TextView
+           android:layout_below="@+id/muListView"
+           android:layout_margin="20dp"
+           android:textSize="14sp"
+           android:id="@+id/xinjian"
+           android:text="行程简介:"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:layout_below="@id/xinjian"
+           android:layout_margin="20dp"
+           android:id="@+id/xinListView"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+       </TextView>
+       <TextView
+           android:layout_marginLeft="20dp"
+           android:layout_below="@+id/xinListView"
+           android:id="@+id/infoList"
+           android:text="查看相关策略   点击右上角查看该地航班信息"
+           android:textSize="14sp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+       <LinearLayout
+           android:layout_below="@+id/infoList"
+           android:orientation="vertical"
+           android:id="@+id/groudInfo"
+           android:layout_marginLeft="20dp"
+           android:layout_marginBottom="20dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <CheckBox
+               android:checked="false"
+               android:textColor="@color/grey"
+               android:layout_marginTop="20dp"
+               android:text="查看当地酒店信息"
+               android:button="@null"
+               android:id="@+id/r1"
+               android:layout_weight="1"
+               android:layout_width="match_parent"
+               android:layout_height="0dp" />
+           <CheckBox
+               android:checked="false"
+               android:textColor="@color/grey"
+               android:layout_marginTop="20dp"
+               android:text="查看当地旅游攻略"
+               android:button="@null"
+               android:id="@+id/r2"
+               android:layout_weight="1"
+               android:layout_width="match_parent"
+               android:layout_height="0dp" />
+           <CheckBox
+               android:checked="false"
+               android:textColor="@color/grey"
+               android:layout_marginTop="20dp"
+               android:text="查看当地出租车信息"
+               android:button="@null"
+               android:id="@+id/r3"
+               android:layout_weight="1"
+               android:layout_width="match_parent"
+               android:layout_height="0dp" />
+           </LinearLayout>
+           <RelativeLayout
+               android:layout_below="@+id/groudInfo"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+               <TextView
+                   android:textSize="16sp"
+                   android:layout_centerVertical="true"
+                   android:text="旅游经费："
+                   android:layout_alignParentLeft="true"
+                   android:id="@+id/price"
+                   android:layout_margin="20dp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content" />
+               <TextView
+                   android:textSize="14sp"
+                   android:text="原价格："
+                   android:layout_centerInParent="true"
+                   android:id="@+id/realPrice"
+                   android:layout_margin="20dp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content" />
+               <Button
+                   android:layout_centerVertical="true"
+                   android:layout_margin="20dp"
+                   android:layout_alignParentRight="true"
+                   android:id="@+id/inOrder"
+                   android:text="立即订购"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content" />
+               </RelativeLayout>
+       </RelativeLayout>
+
+</ScrollView>

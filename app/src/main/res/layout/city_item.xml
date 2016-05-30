@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:id="@+id/back_iamge"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="11111"
+        android:textColor="#fdfbfb"
+        android:layout_marginBottom="32dp"
+        android:layout_marginLeft="8dp"
+        android:layout_alignBottom="@id/back_iamge"
+        android:id="@+id/name"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="22222"
+        android:textColor="#fdfbfb"
+        android:layout_alignBottom="@id/back_iamge"
+        android:layout_marginLeft="4dp"
+        android:id="@+id/day"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3333333333"
+        android:id="@+id/total"
+        android:textColor="#fdfbfb"
+        android:layout_alignBottom="@id/back_iamge"
+        android:layout_toRightOf="@id/day"
+        android:layout_marginLeft="4dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="44444444444"
+        android:layout_below="@id/back_iamge"
+        android:padding="12dp"
+        android:id="@+id/content"/>
+</RelativeLayout>
